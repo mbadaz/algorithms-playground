@@ -1,13 +1,13 @@
 package com.mambure;
 
-import java.io.Console;
-import java.util.*;
-import java.util.regex.Pattern;
+import com.mambure.projecteuler.Fibonacci;
+import com.mambure.projecteuler.LargestPrimeFactor;
+import com.mambure.projecteuler.SumOfMultiples;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(solution(new int[]{2,1,3}, 2));
+        LargestPrimeFactor.solution(600851475143L);
     }
 
     // [7,3,7,3,1,3,4,1]
